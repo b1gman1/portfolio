@@ -1,0 +1,49 @@
+/* .body{
+    background-image: url(../img/mountine.jpg);
+    margin: 200px;
+    padding: 200px;
+} */
+.hero{
+    background-image: url(../img/mountine.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.avatar{
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+
+}
+.photo{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+.photo img{
+    height: 100%;
+    position: absolute;
+    left:50%;
+    bottom: 20%;
+    transform: translate(-50%);
+    transition: bottom 2s, left 2s;
+}
+.photo:hover .tree{
+    bottom: 30px;
+}
+.photo:hover .bean{
+    left:20PX;
+}
+@media only screen and (max-width: 1000px){
+    .photo{
+        font-size: 15%;
+        height: 15%;
+    }
+
+ }
