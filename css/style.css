@@ -3,7 +3,7 @@
     margin: 200px;
     padding: 200px;
 } */
-.hero{
+.hii{
     background-image: url(../img/mountine.jpg);
     background-size: cover;
     background-position: center;
@@ -43,7 +43,13 @@
 @media only screen and (max-width: 1000px){
     .photo{
         font-size: 15%;
-        height: 15%;
+        height: 20%;
+        position: absolute;
+    }
+    .hii{
+        backround: image auto;
+        height: auto;
+        width: auto;
     }
 
  }
